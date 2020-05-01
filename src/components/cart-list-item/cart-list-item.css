@@ -1,0 +1,39 @@
+.idx-td {
+    font-weight: 600;
+}
+
+.td-link {
+    color: #000;
+}
+
+.td-link:hover {
+    color: #000;
+}
+
+button {
+    outline: none;
+}
+
+.action {
+    border: none;
+    background: none;
+    outline: none;
+    margin-right: .5em;
+    font-size: 16pt;
+}
+
+.action:active {
+    outline: none;
+}
+
+.action-add i {
+    color: #44bd32;
+}
+
+.action-remove i {
+    color: #fbc531;
+}
+
+.action-remove-all i {
+    color: #e84118;
+}

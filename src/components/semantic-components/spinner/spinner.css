@@ -1,0 +1,56 @@
+#loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f6fa;
+  border-radius: 2px;
+}
+
+#loader div {
+  height: 30px;
+  width: 30px;
+  background-color: #00a8ff;
+  margin: 0 5px;
+}
+
+#loader div:first-child {
+  animation-name: Left;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+#loader div:last-child {
+  animation-name: Right;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes Left {
+  0% {
+    margin: 0 5px;
+  } 25% {
+    margin: 0 35px 0 0;
+  } 50% {
+    margin: 0 5px;
+  } 100% {
+    margin: 0 5px;
+  } 
+}
+
+@keyframes Right {
+  0% {
+    margin: 0 5px;
+  } 50% {
+    margin: 0 5px;
+  } 75% {
+    margin: 0 0 0 35px;
+  } 100% {
+    margin: 0 5px;
+  } 
+}

@@ -1,0 +1,28 @@
+.unusual-section {
+    background-color: #f5f6fa;
+    width: 20%;
+    border-radius: 2px;
+    font-family: 'Roboto';
+    text-align: center;
+    padding: .3em 0;
+    box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.2);
+}
+
+.unusual-section h2,
+.us-link {
+    font-size: 18pt;
+    color: #00a8ff
+}
+
+.us-card img {
+    width: 100%;
+}
+
+.us-link {
+    font-size: 16pt;
+    color: #00a8ff
+}
+
+.us-link:hover {
+    text-decoration: none;
+}
