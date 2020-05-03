@@ -14,12 +14,13 @@ import { us_actions } from '../actions';
 
 // Actual Container 
 const UnusualSectionContainer = ( { mss, data, topic, parameter, loading, usRequested, usTopic, usParameter, usLoad }) => {
-    let topics = ['books', 'games', 'movies'];
-    let parameters = ['mostLiked', 'bestseller'];
+    const topics = ['books', 'games', 'movies'];
+    const parameters = ['mostLiked', 'bestseller'];
 
     let definedTopic = topics[Math.round( Math.random() * (topics.length - 1) )]
     let definedParameter = parameters[Math.round( Math.random() * (parameters.length - 1) )]
 
+    // Store Update
     useEffect(() => {
         usRequested();
         usTopic(definedTopic);
