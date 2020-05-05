@@ -34,9 +34,47 @@
 
 .tll-selected {
     background-color: #0097e6;
-    color: #f5f6fa
+    color: #f5f6fa;
 }
 
 .type-list-link:hover {
     text-decoration: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .type-list {
+        width: 70vw;
+        list-style: none;
+        box-sizing: border-box;
+        background-color: #d6d6d6;
+        border-radius: 2px;
+        box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.2);
+        box-sizing: content-box;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .type-list li {
+        margin-bottom: 0;
+        padding: 0 10px;
+        width: 30%;
+        background-color: #f5f6fa;
+    }
+
+    .type-list-link {
+        display: block;
+        width: 100%;
+        padding: .7em 0 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Roboto';
+        color: #00a8ff;
+        font-size: 12pt;
+    }
+
+    .tll-selected {
+        background-color: #0097e6;
+        color: #f5f6fa;
+    }
 }

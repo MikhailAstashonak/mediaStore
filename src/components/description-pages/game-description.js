@@ -13,7 +13,7 @@ const GameDescription = ( {data, id} ) => {
         <section className='description'>
             <h2> {data.title} </h2>
             <div className='book-info'>
-                <img src={data.pictureUrl} alt={data.title} width='200px' height='320px'/>
+                <img src={data.pictureUrl} alt={data.title} />
                 <div className='book-text-info'>
                     <div className='description-params' >
                         <div>
